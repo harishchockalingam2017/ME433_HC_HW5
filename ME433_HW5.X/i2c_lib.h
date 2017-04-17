@@ -12,6 +12,7 @@
 #define slave_r 0b10000001
 
 void init();
+void I2C_master_setup(void);
 void getState(char p);
 void setState(char add, char i);
 
