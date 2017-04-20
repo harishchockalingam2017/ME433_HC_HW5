@@ -66,7 +66,8 @@ void setState(char add, char i){
 }
 
 char getState(char p){
-    char s, r;
+    char s;
+    char r;
     
     I2C_master_start();
     I2C_send(slave_w);

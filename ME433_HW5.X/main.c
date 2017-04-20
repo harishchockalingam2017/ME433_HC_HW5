@@ -65,6 +65,7 @@ void main() {
     
     
     __builtin_enable_interrupts();
+    
     char i;
     while(1) {
         if(!getState(7)){
